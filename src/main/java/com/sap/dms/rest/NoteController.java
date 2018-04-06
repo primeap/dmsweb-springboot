@@ -20,7 +20,7 @@ import com.sap.dms.services.NoteRepository;
 import com.sap.dms.util.ResourceNotFoundException;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/rest")
 public class NoteController {
 
 	@Autowired
